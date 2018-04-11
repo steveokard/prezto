@@ -42,6 +42,7 @@ zstyle ':prezto:load' pmodule \
   'git' \
   'autosuggestions' \
   'syntax-highlighting' \
+  'history-search-multi-word' \
   'prompt'
 
 #
