@@ -31,3 +31,6 @@
 [submodule "modules/history-search-multi-word"]
 	path = modules/history-search-multi-word
 	url = https://github.com/zdharma/history-search-multi-word
+[submodule "modules/z"]
+	path = modules/z
+	url = https://github.com/rupa/z.git
