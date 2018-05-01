@@ -1,1 +1,0 @@
-/home/stev/stevset/prezto/.zprezto/modules/z/z.sh
