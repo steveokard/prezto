@@ -32,5 +32,5 @@
 	path = modules/history-search-multi-word
 	url = https://github.com/zdharma/history-search-multi-word
 [submodule "modules/z"]
-	path = modules/z/external
+	path = modules/z
 	url = https://github.com/sjl/z-zsh.git
