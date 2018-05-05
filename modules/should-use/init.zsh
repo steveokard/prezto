@@ -1,2 +1,1 @@
-#!/bin/zsh
-source external/you-should-use.plugin.zsh || exit 1
+source $ZPREZTODIR/modules/should-use/external/you-should-use.plugin.zsh
