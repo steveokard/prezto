@@ -19,7 +19,7 @@ elif (( $+commands[pyenv] )); then
   eval "$(pyenv init -)"
 
 # Prepend PEP 370 per user site packages directory, which defaults to
-# ~/Library/Python on Mac OS X and ~/.local elsewhere, to PATH. The
+# ~/Library/Python on macOS and ~/.local elsewhere, to PATH. The
 # path can be overridden using PYTHONUSERBASE.
 else
   if [[ -n "$PYTHONUSERBASE" ]]; then
@@ -94,7 +94,7 @@ if (( $+VIRTUALENVWRAPPER_VIRTUALENV || $+commands[virtualenv] )) && \
   export WORKON_HOME="${WORKON_HOME:-$HOME/.virtualenvs}"
 
   # Disable the virtualenv prompt.
-  VIRTUAL_ENV_DISABLE_PROMPT=1
+  export VIRTUAL_ENV_DISABLE_PROMPT=1
 
   # Create a sorted array of available virtualenv related 'pyenv' commands to
   # look for plugins of interest. Scanning shell '$path' isn't enough as they
