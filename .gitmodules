@@ -34,3 +34,9 @@
 [submodule "modules/z"]
 	path = modules/z
 	url = https://github.com/sjl/z-zsh.git
+[submodule "modules/should-use/external"]
+	path = modules/should-use/external
+	url = https://github.com/MichaelAquilina/zsh-you-should-use.git
+[submodule "modules/z/external"]
+	path = modules/z/external
+	url = https://github.com/sjl/z-zsh.git
