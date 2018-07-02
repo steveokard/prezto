@@ -40,3 +40,6 @@
 [submodule "modules/z/external"]
 	path = modules/z/external
 	url = https://github.com/sjl/z-zsh.git
+[submodule "modules/q/q"]
+	path = modules/q/q
+	url = https://github.com/cal2195/q
