@@ -39,6 +39,7 @@ zstyle ':prezto:load' pmodule \
   'aliases' \
   'should-use' \
   'z' \
+  'q' \
   'tmux' \
   'fasd' \
   'git' \
