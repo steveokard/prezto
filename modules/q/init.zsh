@@ -1,2 +1,2 @@
-source q/q.plugin.zsh
+. $ZPREZTODIR/modules/q/q.plugin.zsh
 
