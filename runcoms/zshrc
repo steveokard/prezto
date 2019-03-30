@@ -183,3 +183,5 @@ setopt hash_list_all
 
 # allow use of comments in interactive code
 setopt interactivecomments
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
