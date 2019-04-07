@@ -185,3 +185,4 @@ setopt hash_list_all
 setopt interactivecomments
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+source ~/.purepower
