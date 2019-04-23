@@ -44,7 +44,9 @@ unsetopt list_beep
 
 # Characters which are also part of a word.
 # See 4.3.4 of http://zsh.sourceforge.net/Guide/zshguide04.html.
-WORDCHARS=''
+# by default: export WORDCHARS=’*?_-.[]~=/&;!#$%^(){}<>’
+# we take out the slash, period, angle brackets, dash here.
+export WORDCHARS='*?_[]~=&;!#$%^(){}'
 
 # See http://zsh.sourceforge.net/Doc/Release/Completion-System.html.
 zmodload zsh/complist
@@ -186,3 +188,4 @@ setopt interactivecomments
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 source ~/.purepower
+
