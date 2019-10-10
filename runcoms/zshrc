@@ -186,6 +186,8 @@ setopt hash_list_all
 # allow use of comments in interactive code
 setopt interactivecomments
 
+#initialize fuzzyfinder
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-source ~/.purepower
 
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh
