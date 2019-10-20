@@ -61,15 +61,15 @@ alias sa='alias | grep -i'
 alias type='type -a'
 
 # Safe ops. Ask the user before doing anything destructive.
-#alias rmi="${aliases[rm]:-rm} -i"
+alias rmi="${aliases[rm]:-rm} -i"
 alias mvi="${aliases[mv]:-mv} -i"
 alias cpi="${aliases[cp]:-cp} -i"
 alias lni="${aliases[ln]:-ln} -i"
 if zstyle -T ':prezto:module:utility' safe-ops; then
-  #alias rm='rmi'
-  alias mv='mvi'
-  alias cp='cpi'
-  alias ln='lni'
+  alias rm="${aliases[rm]:-rm} -i"
+  alias mv="${aliases[mv]:-mv} -i"
+  alias cp="${aliases[cp]:-cp} -i"
+  alias ln="${aliases[ln]:-ln} -i"
 fi
 
 # ls
