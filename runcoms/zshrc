@@ -50,8 +50,19 @@ export WORDCHARS='*?_[]~=&;!#$%^(){}'
 
 # See http://zsh.sourceforge.net/Doc/Release/Completion-System.html.
 zmodload zsh/complist
+# Perform compinit only once a day.
 autoload -Uz compinit
-compinit
+
+setopt EXTENDEDGLOB
+for dump in $ZSH_COMPDUMP(#qN.m1); do
+  compinit
+  if [[ -s "$dump" && (! -s "$dump.zwc" || "$dump" -nt "$dump.zwc") ]]; then
+    zcompile "$dump"
+  fi
+  echo "Initializing Completions..."
+done
+unsetopt EXTENDEDGLOB
+compinit -C
 
 # Menu selection will be started unconditionally.
 zstyle ':completion:*' menu select
