@@ -35,5 +35,3 @@ alias sagent="eval `ssh-agent`"
 #Command Replacement aliases
 alias less='less -imJMW'
 
-#Start Emacs through Dameon
-alias emacs="emacsclient --socket-name="instance1""
