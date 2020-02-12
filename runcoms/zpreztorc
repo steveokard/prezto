@@ -8,7 +8,7 @@
 #
 # General
 #
-#export TERM="xterm-256color"
+export TERM="xterm-256color"
 
 # Set case-sensitivity for completion, history lookup, etc.
 # zstyle ':prezto:*:*' case-sensitive 'yes'
@@ -43,9 +43,9 @@ zstyle ':prezto:load' pmodule \
   'tmux' \
   'fasd' \
   'git' \
-  'autosuggestions' \
   'syntax-highlighting' \
   'history-search-multi-word' \
+  'autosuggestions' \
   'prompt'
 
 #
@@ -198,7 +198,7 @@ zstyle ':prezto:load' pmodule \
 #
 
 # Auto set the tab and window titles.
-# zstyle ':prezto:module:terminal' auto-title 'yes'
+ zstyle ':prezto:module:terminal' auto-title 'yes'
 
 # Set the window title format.
 # zstyle ':prezto:module:terminal:window-title' format '%n@%m: %s'
@@ -217,7 +217,7 @@ zstyle ':prezto:load' pmodule \
 # zstyle ':prezto:module:tmux:auto-start' local 'yes'
 
 # Auto start a session when Zsh is launched in a SSH connection.
- zstyle ':prezto:module:tmux:auto-start' remote 'yes'
+# zstyle ':prezto:module:tmux:auto-start' remote 'yes'
 
 # Integrate with iTerm2.
 # zstyle ':prezto:module:tmux:iterm' integrate 'yes'
