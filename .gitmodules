@@ -34,11 +34,6 @@
 	path = modules/prompt/external/async
 	url = https://github.com/mafredri/zsh-async.git
 	branch = master
-[submodule "modules/prompt/external/powerlevel9k"]
-	path = modules/prompt/external/powerlevel9k
-	url = https://github.com/bhilburn/powerlevel9k.git
-	branch = master
-	shallow = true
 [submodule "contrib/history-search-multi-word"]
 	path = contrib/history-search-multi-word
 	url = https://github.com/zdharma/history-search-multi-word
