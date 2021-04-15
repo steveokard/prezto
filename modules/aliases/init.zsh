@@ -1,7 +1,7 @@
 #Readability aliases
 alias lss='ls -alh --color=auto'
 alias mount='mount |column -t'
-alias df='df -H'
+alias df='df -H -x squashfs -x tmpfs -x devtmpfs'
 
 #Shell Function aliases
 alias dirs="dirs -v"
