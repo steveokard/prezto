@@ -22,7 +22,7 @@
 	path = modules/prompt/external/agnoster
 	url = https://github.com/agnoster/agnoster-zsh-theme.git
 	branch = master
-[submodule "modules/prompt/functions/pure"]
+[submodule "modules/prompt/external/pure"]
 	path = modules/prompt/external/pure
 	url = https://github.com/sindresorhus/pure.git
 	branch = master
@@ -41,4 +41,5 @@
 [submodule "modules/prompt/external/powerlevel10k"]
 	path = modules/prompt/external/powerlevel10k
 	url = https://github.com/romkatv/powerlevel10k.git
+	branch = master
 	shallow = true
