@@ -9,4 +9,4 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'exa -1 --color=always $realpath'
 # switch group using `,` and `.`
 zstyle ':fzf-tab:*' switch-group ',' '.'
 
-source ./external/fzf-tab.zsh
+source $ZPREZTODIR/contrib/fzf-tab/external/fzf-tab.zsh

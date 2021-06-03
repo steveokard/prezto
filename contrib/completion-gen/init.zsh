@@ -6,4 +6,4 @@ fi
 fpath=($GENCOMPL_FPATH $fpath)
 zstyle :plugin:zsh-completion-generator programs fzf
 
-source ./external/zsh-completion-generator.plugin.zsh
+source $ZPREZTODIR/contrib/completion-gen/external/zsh-completion-generator.plugin.zsh
