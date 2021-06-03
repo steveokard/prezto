@@ -57,7 +57,7 @@ zstyle ':prezto:load' pmodule \
 
 # Set the query found color.
 # zstyle ':prezto:module:autosuggestions:color' found ''
-
+ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=20
 #
 # Completions
 #
@@ -160,7 +160,7 @@ zstyle ':prezto:module:prompt' show-return-val 'yes'
 #
 
 # Auto start a session when Zsh is launched in a local terminal.
-# zstyle ':prezto:module:screen:auto-start' local 'yes'
+[[ -n $DISPLAY ]] && zstyle ':prezto:module:screen:auto-start' local 'yes'
 
 # Auto start a session when Zsh is launched in a SSH connection.
 # zstyle ':prezto:module:screen:auto-start' remote 'yes'
