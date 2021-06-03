@@ -2,4 +2,3 @@
 *.zwc.old
 modules/*/cache.zsh
 contrib
-modules/prompt/functions/prompt_powerlevel10k_setup

@@ -26,8 +26,3 @@ else
   prompt "$prompt_argv[@]"
 fi
 unset prompt_argv
-
-#Prompt Customizations
-export POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir rbenv vcs )
-export POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(vi_mode root_indicator background_jobs context)
-POWERLEVEL9K_VI_INSERT_MODE_STRING="MODE"
