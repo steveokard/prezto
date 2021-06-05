@@ -1,12 +1,13 @@
 #Readability aliases
 alias lss='ls -alh --color=auto'
 alias mount='mount |column -t'
-alias df='df -H'
+alias df='df -H -x squashfs -x tmpfs -x devtmpfs'
 
 #Shell Function aliases
 alias dirs="dirs -v"
 alias h='history'
 alias j='jobs -l'
+alias reload=". ~/.zshrc"
 
 #shortcuts aliases
 alias please="sudo !!"
