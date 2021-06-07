@@ -22,7 +22,7 @@ alias gitD='git diff'
 alias gitC='git commit -a'
 
 #Apt aliases
-alias aptup="sudo apt update && sudo apt upgrade"
+alias aptup="sudo apt update && sudo apt full-upgrade"
 alias aptrm="sudo apt autoremove && sudo apt autoclean"
 
 #Combo aliases
