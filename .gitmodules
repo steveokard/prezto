@@ -35,3 +35,6 @@
 [submodule "contrib/fzf-tab/external"]
 	path = contrib/fzf-tab/external
 	url = https://github.com/Aloxaf/fzf-tab
+[submodule "contrib/colorize"]
+	path = contrib/colorize
+	url = https://github.com/zpm-zsh/colorize
