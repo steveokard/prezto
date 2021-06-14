@@ -38,3 +38,9 @@
 [submodule "contrib/colorize"]
 	path = contrib/colorize
 	url = https://github.com/zpm-zsh/colorize
+[submodule "contrib/history-search-multi-word"]
+	path = contrib/history-search-multi-word
+	url = https://github.com/zdharma/history-search-multi-word.git
+[submodule "contrib/fast-syntax-highlighting"]
+	path = contrib/fast-syntax-highlighting
+	url = https://github.com/zdharma/fast-syntax-highlighting.git

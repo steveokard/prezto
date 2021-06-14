@@ -47,8 +47,8 @@ zstyle ':prezto:load' pmodule \
   'git' \
   'fzf-tab' \
   'completion-gen' \
-  'history-substring-search' \
-  'syntax-highlighting' \
+  'fast-syntax-highlighting' \
+  'history-search-multi-word' \
   'autosuggestions' \
   'prompt'
 
