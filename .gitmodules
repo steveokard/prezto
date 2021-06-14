@@ -44,3 +44,6 @@
 [submodule "contrib/fast-syntax-highlighting"]
 	path = contrib/fast-syntax-highlighting
 	url = https://github.com/zdharma/fast-syntax-highlighting.git
+[submodule "contrib/q"]
+	path = contrib/q
+	url = https://github.com/cal2195/q.git
