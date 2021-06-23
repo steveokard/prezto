@@ -1,12 +1,16 @@
 #Readability aliases
-alias lss='ls -alh --color=auto'
+if which exa > /dev/null; then
+  alias lss='exa -alh'
+else
+  alias lss='ls -alh --color=auto'
+fi
 alias mount='mount |column -t'
 alias df='df -H -x squashfs -x tmpfs -x devtmpfs'
 
 #Shell Function aliases
 alias dirs="dirs -v"
 alias h='history'
-alias j='jobs -l'
+alias jb='jobs -l'
 alias reload=". ~/.zshrc"
 
 #shortcuts aliases
