@@ -64,17 +64,17 @@ alias sa='alias | grep -i'
 alias type='type -a'
 
 # Safe ops. Ask the user before doing anything destructive.
-alias cpi="${aliases[cp]:-cp} -i"
-alias lni="${aliases[ln]:-ln} -i"
-alias mvi="${aliases[mv]:-mv} -i"
-alias rmi="${aliases[rm]:-rm} -i"
-if zstyle -T ':prezto:module:utility' safe-ops; then
-  alias cp="${aliases[cp]:-cp} -i"
-  alias ln="${aliases[ln]:-ln} -i"
-  alias mv="${aliases[mv]:-mv} -i"
-  alias rm="${aliases[rm]:-rm} -i"
-fi
-
+# alias cpi="${aliases[cp]:-cp} -i"
+# alias lni="${aliases[ln]:-ln} -i"
+# alias mvi="${aliases[mv]:-mv} -i"
+# alias rmi="${aliases[rm]:-rm} -i"
+# if zstyle -T ':prezto:module:utility' safe-ops; then
+  # alias cp="${aliases[cp]:-cp} -i"
+  # alias ln="${aliases[ln]:-ln} -i"
+  # alias mv="${aliases[mv]:-mv} -i"
+  # alias rm="${aliases[rm]:-rm} -i"
+# fi
+#
 # ls
 if [[ ${(@M)${(f)"$(ls --version 2>&1)"}:#*GNU *} ]]; then
   # GNU Core Utilities
