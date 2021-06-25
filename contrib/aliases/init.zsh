@@ -7,6 +7,7 @@ fi
 alias mount='mount |column -t'
 alias df='df -H -x squashfs -x tmpfs -x devtmpfs'
 alias bat=batcat
+alias ncdu='ncdu --color dark'
 
 #Shell Function aliases
 alias dirs="dirs -v"
